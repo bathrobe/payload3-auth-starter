@@ -1,3 +1,8 @@
+# Simple Payload 3 Auth Starter
+Frontend user auth with password reset and verification enabled by email. Email stuff done with [Resend](https://resend.com).
+
+Super barebones. Uses the local API for [Payload](https://payloadcms.com) beta 3.0 release.
+
 # Payload Blank Template
 
 A blank template for [Payload](https://github.com/payloadcms/payload) to help you get up and running quickly. This repo may have been created by running `npx create-payload-app@latest` and selecting the "blank" template or by cloning this template on [Payload Cloud](https://payloadcms.com/new/clone/blank).
