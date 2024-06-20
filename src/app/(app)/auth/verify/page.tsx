@@ -18,12 +18,8 @@ export default async function VerifyPage({ searchParams }: { searchParams: { tok
     collection: 'users',
   })
 
-  console.log(result)
-
   if (result) {
-    console.log('found result')
-    console.log(result)
-    redirect('/')
+    redirect('/auth/login')
   } else {
     return <div>error</div>
   }
